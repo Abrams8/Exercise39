@@ -9,7 +9,6 @@ public class Main {
 
     public static void main(String[] args) {
         List<Integer> studentGradeList = new LinkedList<>();
-        List<Integer> studentGradeListNew = new ArrayList<>();
         for (int i = 0; i < 20; i++) {
             studentGradeList.add(ThreadLocalRandom.current().nextInt(1, 11));
         }
